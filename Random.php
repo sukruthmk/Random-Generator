@@ -39,7 +39,7 @@ Class Random {
         }
 
     	if($precision) {
-    		$randomfloat = round($randomfloat,$round);
+    		$randomfloat = round($randomfloat, $precision);
         }
 
     	return $randomfloat;
